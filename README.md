@@ -1,2 +1,2 @@
 # Trafficdetector
-Developing trafficdetector using ML Algos,choosing best one to predict traffic using available dataset
+Developing trafficdetector using ML Algos,choosing best algorithm(from KNN,DecisionTree,randomForest etc) to predict traffic using available dataset
