@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier;
+    padding: 4rem;
+    font-size: 1.25rem;
+    display: block;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+}
+
+.contributors{
+    text-align: center;
+}
+
+.img1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%
+}
+
+.abstract{
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.dataset{
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.img2{
+    justify-content: center;
+    margin-left: 180px;
+    width: 60%;
+    display: block;
+}
+
+
+.video{
+    margin-left: 45px;
+}
+
+.bibliography{
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.demo{
+    margin-left: 100px;
+}
+
+.img3{
+    width: 80%;
+    margin-left: 100px;
+}
+

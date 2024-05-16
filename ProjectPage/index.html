@@ -1,0 +1,194 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Traffic Prediction</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="description" content="Project page for &#39; Traffic Prediction&#39;">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+
+<body>
+    <p class="title">Traffic Prediction </p>
+    <div style="text-align: center; font-size: 15pt; margin-bottom: 15px">
+
+    </div>
+    <p class="contributors">
+        <span><b>Contributors:</b>&emsp;</span>
+        <span class="author"><a href="https://github.com/Anushka-1603">Anushka Singh</a>&emsp;</span>
+        <span class="author"><a href="https://github.com/harishubha">Hari Shubha</a>&emsp;</span>
+        <span class="author"><a href="https://github.com/Mohanshi04">Mohanshi Jain</a>&emsp;</span>
+        <span class="author"><a href="https://github.com/Parisharma16">Pari Sharma</a>&emsp;</span>
+        <span class="author"><a href="https://github.com/aasthaasb">Aastha Bhore</a>&emsp;</span>
+        <span class="author"><a href="https://github.com/pran9803">Pranaya Jayprakash</a>&emsp;</span>
+
+    </p>
+
+    <table width="999" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+        <tbody>
+            <tr>
+                <td align="center">
+                <a href="https://github.com/pran9803/TrafficPredictor/blob/main/Report.pdf">Report</a> | 
+                <a href="https://github.com/pran9803/TrafficPredictor">Code</a> | 
+                <a href="https://github.com/pran9803/TrafficPredictor/blob/main/traffic.csv">Dataset</a> | 
+                <a href="https://github.com/pran9803/TrafficPredictor/blob/main/Project_PPT.pdf">Slides</a> | 
+                <a href="https://youtu.be/x_N8bIW-9vo?si=37rmbymcKPU8PFcb">Spotlight Video</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img class="img1" src="assets/traffic_img.png" alt="traffic_pic">
+    <br><br>
+
+    <div class="abstract">
+        <h3><b>Abstract</b></h3>
+        <p>
+            Traffic congestion is rising in cities around the world driven by factors such as growing
+            urban populations, aging infrastructure, poorly synchronized traffic signals and a lack of
+            real-time data. Traffic data and analytics company INRIX estimates that traffic congestion cost
+            U.S. commuters $305 billion in 2017 due to wasted fuel, lost time and the increased cost of
+            transporting goods through congested areas. Given the physical and financial limitations around building
+            additional roads, cities must use new strategies and technologies to improve traffic conditions.
+            One key approach is ‘Traffic Prediction’. Traffic prediction means forecasting the volume and
+            density of traffic flow to manage vehicle movement, reduce congestion, and find the optimal (least
+            time or energy consuming) route. The task of traffic prediction is to detect traffic conditions for
+            upcoming periods such as next day, week, etc. The impacts are significant. Utilizing historical traffic
+            data, time-of-day patterns, and other relevant factors, predictive models can anticipate traffic congestion
+            hotspots and enable the timely deployment of resources to mitigate its impact.
+        </p>
+    </div>
+
+    <br><br>
+
+    <div class="dataset">
+        <h3><b>Traffic Prediction Dataset</b></h3>
+        <p>Number of Instances/samples : 48120
+            Number of Attributes : 4 {DateTime, Junction, Vehicles, ID}
+            <br>
+            Out of these features: number of vehicles, year, month, day of the month, hour and which day of
+            the week are of importance.
+            <br>
+            An example of the first few rows of the dataset is given below:
+        </p>
+        <img class="img2" src="assets/dataset.png" alt="dataset">
+        <p>The variation of data over time is shown below:</p>
+
+        <img class="img2" src="assets/traffic_var.png" alt="histogram">
+    </div>
+
+    <br><br>
+    <h3 style="margin-left: 100px"><b>Highlight Video</b></h3>
+    <br>
+    <div class="row justify-content-center">
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/x_N8bIW-9vo?si=QQ0MxKYqfw0m6gZZ"></iframe>
+        <br>
+    </div>
+
+    <br><br><br>
+
+    <div class="bibliography">
+        <h3><b>Bibliography</b></h3>
+        <ol>
+            <li>Dataset: <a href="https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset/data">https://www.kaggle.com/datasets/fedesoriano/traffic-prediction-dataset/data</a></li>
+            <li>KNN:  <a href="https://www.geeksforgeeks.org/k-nearest-neighbors-with-python-ml/amp/">https://www.geeksforgeeks.org/k-nearest-neighbors-with-python-ml/amp/</a></li>
+            <li>Linear Regression:  <a href="https://www.geeksforgeeks.org/ml-linear-regression/">https://www.geeksforgeeks.org/ml-linear-regression/</a></li>
+            <li>Random Forest:  <a href="https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/" >https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/</a></li>
+            <li>Decision Tree:  <a href="https://medium.com/analytics-vidhya/decision-tree-fce5018f3278">https://medium.com/analytics-vidhya/decision-tree-fce5018f3278</a></li>
+            <li>Gradient Boosting:  <a href="https://www.datacamp.com/tutorial/guide-to-the-gradient-boosting-algorithm" >https://www.datacamp.com/tutorial/guide-to-the-gradient-boosting-algorithm</a></li>
+            <li>R-squared score:  <a href="https://statisticsbyjim.com/regression/interpret-r-squared-regression/" >https://statisticsbyjim.com/regression/interpret-r-squared-regression/</a></li>           
+        </ol>
+    </div>
+    <br><br>
+
+    <div class="demo">
+        <h3><b>Watch the web demo <a href="https://huggingface.co/spaces/pran9803/TrafficPredictor">here</a>!</b></h3>
+        <br>
+        <a href="https://huggingface.co/spaces/pran9803/TrafficPredictor">
+            <img src="assets/webdemo.png" alt="demo_img" class="img3">
+        </a>
+    </div>
+    <br><br>
+    
+    <div>
+        <h3 style="margin-left: 100px"><b>Team</b></h3>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="mainflip">
+                    <div class="card">
+                        <div class="card-body text-center card-no-padding">
+                            <p><img class=" img-fluid" src="assets/Anushka.jpeg" alt="card image"></p>
+                            <h5 class="card-title">Anushka Singh <br> B22AI008</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="mainflip">
+                    <div class="card">
+                        <div class="card-body text-center card-no-padding">
+                            <p><img class=" img-fluid" src="assets/Hari Shubha.jpeg" alt="card image"></p>
+                            <h5 class="card-title">Hari Shubha<br>B22AI021</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="mainflip">
+                    <div class="card">
+                        <div class="card-body text-center card-no-padding">
+                            <p><img class=" img-fluid" src="assets/Mohanshi Jain.jpg" alt="card image"></p>
+                            <h5 class="card-title">Mohanshi Jain<br>B22ES014</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="mainflip">
+                    <div class="card">
+                        <div class="card-body text-center card-no-padding">
+                            <p><img class=" img-fluid" src="assets/Pari Sharma.jpeg" alt="card image"></p>
+                            <h5 class="card-title">Pari Sharma<br>B22CS039</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="mainflip">
+                    <div class="card">
+                        <div class="card-body text-center card-no-padding">
+                            <p><img class=" img-fluid" src="assets/Aastha Bhore.jpg" alt="card image"></p>
+                            <h5 class="card-title">Aastha Bhore<br>B22EE002</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="mainflip">
+                    <div class="card">
+                        <div class="card-body text-center card-no-padding">
+                            <p><img class=" img-fluid" src="assets/Pranaya.jpg" alt="card image"></p>
+                            <h5 class="card-title">Pranaya Jayaprakash<br> B22EE086</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br><br>
+    
